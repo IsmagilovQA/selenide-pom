@@ -1,0 +1,15 @@
+group 'com.selenide_test_automation'
+version '1.0'
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.13.1'
+    compile group: 'com.codeborne', name: 'selenide', version: '4.9.1'
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '2.0.1'
+
+}
