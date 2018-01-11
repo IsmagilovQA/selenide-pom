@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5601d08-c029-4b98-a5bc-b0e526af41da" name="Default" comment="" />
+    <list default="true" id="a5601d08-c029-4b98-a5bc-b0e526af41da" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515673309738.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515673309738.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515680823561.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515680823561.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515680981974.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515687238710.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515687238710.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515700831006.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1515700831006.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/finishStationSelected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/finishStationSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/searchResultsDisplayed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/searchResultsDisplayed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/startStationSelected.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/startStationSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/stationsSwapped.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/stationsSwapped.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,15 +49,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchTicketsForm.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchTicketsForm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="-99">
+              <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2783#2784#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
+                <element signature="e#2655#2656#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +98,8 @@
       <file leaf-file-name="SearchResultsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -412,10 +432,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/selenide/tests/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenide/tests/SwappingStationsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenide/tests/StationSelectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenide/tests/FindingTicketsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java" />
       </list>
     </option>
   </component>
@@ -471,6 +491,33 @@
             <path>
               <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_test_automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenide_test_automation" type="b2602c69:ProjectViewProjectNode" />
@@ -797,6 +844,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="105" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -811,7 +859,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -889,33 +937,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2783#2784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2655#2656#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

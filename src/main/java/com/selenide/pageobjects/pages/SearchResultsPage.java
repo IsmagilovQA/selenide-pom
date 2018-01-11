@@ -16,7 +16,6 @@ public class SearchResultsPage {
     public void userCanSeeSearchResults(){
         $(searchResultsPageInfoTab).shouldHave(text(tabInfo));
         $(searchResults).waitUntil(visible, 20000);
-        screenshot("searchResultsDisplayed");
     }
 
 }

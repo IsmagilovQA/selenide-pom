@@ -31,7 +31,6 @@ public class SearchTicketsForm {
         $(startStationFirstDropdownItem).shouldBe(visible);
         $(startStationFirstDropdownItem).click();
         $(startStationInputField).shouldHave(value(startStation));
-        screenshot("startStationSelected");
     }
 
     public void userCanSelectFinishStationFromDropdown(){
@@ -40,14 +39,12 @@ public class SearchTicketsForm {
         //First item is selected
         $(finishStationFirstDropdownItem).click();
         $(finishStationInputField).shouldHave(value(finishStation));
-        screenshot("finishStationSelected");
     }
 
     public void userCanSwapStations(){
         $(swapStationsButton).click();
         $(startStationInputField).shouldHave(value(finishStation));
         $(finishStationInputField).shouldHave(value(startStation));
-        screenshot("stationsSwapped");
         $(swapStationsButton).click();
     }
 
