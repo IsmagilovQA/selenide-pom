@@ -33,18 +33,19 @@ public class FindingTicketsTest extends TestConfig {
         new SearchTicketsForm().userCanClickFindButton();
         new SearchResultsPage().userCanSeeSearchResults();
     }
+
+    @Test(priority = 5)
+    public void testCanSelectStartTicketAndTicketClass() {
+        new SearchResultsPage().userCanSelectStartTicketAndTicketClass();
+    }
+
+    @Test(priority = 6)
+    public void testCanSelectReturnTicketAndTicketClass() {
+        new SearchResultsPage().userCanSelectReturnTicketAndTicketClass();
+    }
+
+    @Test(priority = 7)
+    public void testCanLoadTicketDetails() {
+        new SearchResultsPage().userCanLoadTicketDetails();
+    }
 }
-//    @Test(priority = 5)
-//    public void testCanSelectStartTicketAndTicketClass(){
-//        new SearchResultsPage().userCanSelectStartTicketAndTicketClass();
-//    }
-//
-//    @Test(priority = 6)
-//    public void testCanSelectReturnTicketAndTicketClass(){
-//        new SearchResultsPage().userCanSelectReturnTicketAndTicketClass();
-//    }
-//
-//    @Test(priority = 7)
-//    public void testCanLoadTicketDetails(){
-//        new SearchResultsPage().userCanLoadTicketDetails();
-//    }

@@ -10,14 +10,14 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTicketsForm {
-    private String startStation = "London";
-    private String finishStation = "Paris";
+    private String startStation = "Ber";
+    private String finishStation = "Ham";
     private By startStationInputField = By.xpath("//*[@id=\"search_start_station\"]");
-    private By startStationFirstDropdownItem = By.xpath("/html/body/div[5]/ul/li[1]");
+    private By startStationFirstDropdownItem = By.xpath("/html/body/div[6]/ul/li[1]");
     private By finishStationInputField = By.xpath("//*[@id=\"search_finish_station\"]");
-    private By finishStationFirstDropdownItem = By.xpath("/html/body/div[6]/ul/li[1]");
+    private By finishStationFirstDropdownItem = By.xpath("/html/body/div[7]/ul/li[1]");
     private By swapStationsButton = By.xpath("//*[@id=\"new_search\"]/fieldset[1]/ol/li[2]/a");
-    private By returnTripSwitcher = By.xpath("//*[@id=\"search_journey_type_input\"]/fieldset/ol/li[1]");
+    private By returnTripSwitcher = By.xpath("//*[@id=\"search_journey_type_input\"]");
     private By departureTimeHour = By.xpath("//*[@id=\"search_departure_time_hour\"]");
     private By departureTimeMinute = By.xpath("//*[@id=\"search_departure_time_min\"]");
     private By returnTimeHour = By.xpath("//*[@id=\"search_departure_time_hour\"]");
@@ -51,8 +51,6 @@ public class SearchTicketsForm {
     public void userCanSelectReturnTrip(){
         $(returnTripSwitcher).click();
     }
-
-
 
     public void userCanSetTripDateAndTime(){
         $(openDepartureCalendar).click();
