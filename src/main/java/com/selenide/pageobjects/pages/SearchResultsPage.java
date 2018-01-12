@@ -1,14 +1,15 @@
 package com.selenide.pageobjects.pages;
 
+import com.selenide.pageobjects.components.SearchTicketsForm;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SearchResultsPage {
+public class SearchResultsPage extends SearchTicketsForm{
 
-    private String tabInfo = "Berlin to Hamburg";
+    private String tabInfo = startStation + finishStation;
     private By searchResultsPageInfoTab = By.xpath("//*[@id=\"tabs\"]");
     private By inboundResultsFirstItem = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]");
     private By inboundTicketClassDropdown = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]/div[2]/ol/li/div/div/table/tbody/tr/td[3]");
@@ -35,6 +36,7 @@ public class SearchResultsPage {
 
     public void userCanSelectReturnTicketAndTicketClass(){
         $(returnTicketsButton).click();
+        //Click ticket
         $(outboundResultsFirstItem).click();
         //Click ticket class dropdown
         $(outboundTicketClassDropdown).click();

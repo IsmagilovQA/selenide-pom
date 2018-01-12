@@ -10,8 +10,8 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTicketsForm {
-    private String startStation = "Ber";
-    private String finishStation = "Ham";
+    public String startStation = "Ber";
+    public String finishStation = "Ham";
     private By startStationInputField = By.xpath("//*[@id=\"search_start_station\"]");
     private By startStationFirstDropdownItem = By.xpath("/html/body/div[6]/ul/li[1]");
     private By finishStationInputField = By.xpath("//*[@id=\"search_finish_station\"]");
