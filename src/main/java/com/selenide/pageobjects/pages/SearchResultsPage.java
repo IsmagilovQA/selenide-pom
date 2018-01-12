@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SearchResultsPage extends SearchTicketsForm{
 
-    private String tabInfo = startStation + finishStation;
+    private String tabInfo = startStation + " to " + finishStation;
     private By searchResultsPageInfoTab = By.xpath("//*[@id=\"tabs\"]");
     private By inboundResultsFirstItem = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]");
     private By inboundTicketClassDropdown = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]/div[2]/ol/li/div/div/table/tbody/tr/td[3]");
