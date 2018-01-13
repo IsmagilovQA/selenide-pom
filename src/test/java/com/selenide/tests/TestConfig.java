@@ -11,8 +11,8 @@ public class TestConfig {
     @BeforeClass
     public void setUp(){
         ChromeDriverManager.getInstance().setup();
-        Configuration.browser = "chrome";
-        Configuration.baseUrl = "https://loco2.com";
+        Configuration.browser = "firefox";
+        Configuration.baseUrl = "https://loco2.com/";
         Configuration.startMaximized = true;
         open("/");
     }

@@ -1,6 +1,6 @@
-package com.selenide.pageobjects.pages;
+package com.selenide.objects.pages;
 
-import com.selenide.pageobjects.components.SearchTicketsForm;
+import com.selenide.objects.components.SearchTicketsForm;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;

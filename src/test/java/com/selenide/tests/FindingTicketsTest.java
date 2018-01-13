@@ -1,7 +1,7 @@
 package com.selenide.tests;
 
-import com.selenide.pageobjects.components.SearchTicketsForm;
-import com.selenide.pageobjects.pages.SearchResultsPage;
+import com.selenide.objects.components.SearchTicketsForm;
+import com.selenide.objects.pages.SearchResultsPage;
 import org.testng.annotations.Test;
 
 public class FindingTicketsTest extends TestConfig {
@@ -27,24 +27,31 @@ public class FindingTicketsTest extends TestConfig {
         new SearchTicketsForm().userCanSetTripDateAndTime();
     }
 
-
     @Test(priority = 4)
+    public void testCanSelectPassengers(){
+        new SearchTicketsForm().userCanSelectPassengers();
+    }
+
+
+    @Test(priority = 5)
     public void testCanOpenSearchResults() {
         new SearchTicketsForm().userCanClickFindButton();
         new SearchResultsPage().userCanSeeSearchResults();
     }
 
-    @Test(priority = 5)
+    @Test(priority = 6)
     public void testCanSelectStartTicketAndTicketClass() {
         new SearchResultsPage().userCanSelectStartTicketAndTicketClass();
     }
 
-    @Test(priority = 6)
+    @Test(priority = 7)
     public void testCanSelectReturnTicketAndTicketClass() {
         new SearchResultsPage().userCanSelectReturnTicketAndTicketClass();
     }
 
-    @Test(priority = 7)
+
+
+    @Test(priority = 8)
     public void testCanLoadTicketDetails() {
         new SearchResultsPage().userCanLoadTicketDetails();
     }
