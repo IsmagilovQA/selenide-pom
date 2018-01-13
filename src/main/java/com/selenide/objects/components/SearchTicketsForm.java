@@ -28,10 +28,23 @@ public class SearchTicketsForm {
     private By returnTimeHour = By.xpath("//*[@id=\"search_departure_time_hour\"]");
     private By returnTimeMinute = By.xpath("//*[@id=\"search_departure_time_min\"]");
     private By returnDatepicker = By.xpath("//*[@id=\"search_departure_time_min\"]");
+
     private By adultPassengerMinus = By.xpath("//*[@class=\"who\"]/ol/li[1]/div[1]/div[1]/div[1]/button");
     private By adultPassengerPlus = By.xpath("//*[@class=\"who\"]/ol/li[1]/div[1]/div[1]/div[2]/button");
     private By adultPassengersNumber = By.xpath("//*[@id=\"search_passengers_attributes_0_number\"]");
+
+    private By seniorPassengerMinus = By.xpath("//*[@class=\"who\"]/ol/li[2]/div[1]/div[1]/div[1]/button");
+    private By seniorPassengerPlus = By.xpath("//*[@class=\"who\"]/ol/li[2]/div[1]/div[1]/div[2]/button");
+    private By seniorPassengersNumber = By.xpath("//*[@id=\"search_passengers_attributes_1_number\"]");
+
+    private By youthPassengerMinus = By.xpath("//*[@class=\"who\"]/ol/li[3]/div[1]/div[1]/div[1]/button");
+    private By youthPassengerPlus = By.xpath("//*[@class=\"who\"]/ol/li[3]/div[1]/div[1]/div[2]/button");
+    private By youthPassengersNumber = By.xpath("//*[@id=\"search_passengers_attributes_2_number\"]");
+    private By youthPassengerInputField = By.xpath("//*[@id=\"passenger_2_age_0\"]");
+
+
     private By findTrainsButton = By.xpath("//*[@id=\"new_search\"]/fieldset[4]/ol/li[2]");
+
 
     public void userCanSelectStartStationFromDropdown() {
         $(startStationInputField).setValue(startStation);
@@ -81,8 +94,23 @@ public class SearchTicketsForm {
         $(adultPassengersNumber).shouldHave(value("1"));
         $(adultPassengerMinus).click();
         $(adultPassengersNumber).shouldHave(value("0"));
+        $(adultPassengerMinus).shouldBe(disabled);
         $(adultPassengerPlus).click();
         $(adultPassengersNumber).shouldHave(value("1"));
+        $(seniorPassengersNumber).shouldHave(value("0"));
+        $(seniorPassengerMinus).shouldBe(disabled);
+        $(seniorPassengersNumber).shouldHave(value("0"));
+        $(seniorPassengerPlus).click();
+        $(seniorPassengersNumber).shouldHave(value("1"));
+        $(youthPassengerInputField).shouldNotBe(visible);
+        $(youthPassengersNumber).shouldHave(value("0"));
+        $(youthPassengerInputField).shouldBe(disabled);
+        $(youthPassengerPlus).click();
+        $(youthPassengersNumber).shouldHave(value("1"));
+        $(youthPassengerInputField).shouldBe(visible).setValue("10");
+        $(youthPassengerMinus).click();
+        $(youthPassengerMinus).shouldBe(disabled);
+
 
     }
 

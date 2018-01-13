@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5601d08-c029-4b98-a5bc-b0e526af41da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/objects/pages/TicketDetailsPage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/com/selenide/pageobjects/components/SearchTicketsForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/com/selenide/pageobjects/pages/SearchResultsPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/com/selenide/pageobjects/pages/TicketDetailsPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/TicketDetailsPage.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/components/SearchTicketsForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/objects/components/SearchTicketsForm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/pageobjects/pages/SearchResultsPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/objects/pages/SearchResultsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/com/selenide/tests/TestConfig.class" afterPath="$PROJECT_DIR$/out/test/classes/com/selenide/tests/TestConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/selenide/tests/FindingTicketsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenide/tests/FindingTicketsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/selenide/tests/TestConfig.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenide/tests/TestConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/selenide/objects/components/SearchTicketsForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenide/objects/components/SearchTicketsForm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,8 +34,8 @@
       <file leaf-file-name="SearchTicketsForm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/objects/components/SearchTicketsForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="80" column="56" lean-forward="true" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
+            <state relative-caret-position="241">
+              <caret line="111" column="50" lean-forward="true" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,13 +46,12 @@
       <file leaf-file-name="FindingTicketsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenide/tests/FindingTicketsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
                 <element signature="e#977#978#0" expanded="true" />
               </folding>
             </state>
@@ -821,18 +810,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindingTicketsTest - 2018.01.12 at 23h 20m 19s.xml">
-      <configuration name="FindingTicketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FindingTicketsTest - 2018.01.12 at 23h 24m 49s.xml">
-      <configuration name="FindingTicketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FindingTicketsTest - 2018.01.12 at 23h 25m 50s.xml">
-      <configuration name="FindingTicketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FindingTicketsTest - 2018.01.12 at 23h 26m 38s.xml">
-      <configuration name="FindingTicketsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FindingTicketsTest - 2018.01.13 at 11h 12m 39s.xml">
       <configuration name="FindingTicketsTest" configurationId="TestNG" />
     </history-entry>
@@ -849,6 +826,18 @@
       <configuration name="FindingTicketsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FindingTicketsTest - 2018.01.13 at 21h 28m 44s.xml">
+      <configuration name="FindingTicketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FindingTicketsTest - 2018.01.13 at 21h 41m 50s.xml">
+      <configuration name="FindingTicketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FindingTicketsTest - 2018.01.13 at 21h 45m 45s.xml">
+      <configuration name="FindingTicketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FindingTicketsTest - 2018.01.13 at 22h 10m 51s.xml">
+      <configuration name="FindingTicketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FindingTicketsTest - 2018.01.13 at 22h 13m 43s.xml">
       <configuration name="FindingTicketsTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -921,7 +910,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
             <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
@@ -981,7 +969,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
             <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
@@ -1083,13 +1070,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenide/tests/FindingTicketsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
             <element signature="e#977#978#0" expanded="true" />
           </folding>
         </state>
@@ -1097,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenide/objects/components/SearchTicketsForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="80" column="56" lean-forward="true" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
+        <state relative-caret-position="241">
+          <caret line="111" column="50" lean-forward="true" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
