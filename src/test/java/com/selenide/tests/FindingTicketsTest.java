@@ -2,6 +2,7 @@ package com.selenide.tests;
 
 import com.selenide.objects.components.SearchTicketsForm;
 import com.selenide.objects.pages.SearchResultsPage;
+import com.selenide.objects.pages.TicketDetailsPage;
 import org.testng.annotations.Test;
 
 public class FindingTicketsTest extends TestConfig {
@@ -36,6 +37,7 @@ public class FindingTicketsTest extends TestConfig {
     @Test(priority = 5)
     public void testCanOpenSearchResults() {
         new SearchTicketsForm().userCanClickFindButton();
+        new SearchResultsPage().userIsOnSearchResultsPage();
         new SearchResultsPage().userCanSeeSearchResults();
     }
 
@@ -54,5 +56,6 @@ public class FindingTicketsTest extends TestConfig {
     @Test(priority = 8)
     public void testCanLoadTicketDetails() {
         new SearchResultsPage().userCanLoadTicketDetails();
+        new TicketDetailsPage().userIsOnTicketsDetailsPage();
     }
 }

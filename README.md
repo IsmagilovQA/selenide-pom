@@ -1,1 +1,1 @@
-Test suite on Java + Gradle + Selenium + Selenide + Page Object Model
+Test suite on Java + Gradle + Selenium + TestNG + Selenide + Page Object Model

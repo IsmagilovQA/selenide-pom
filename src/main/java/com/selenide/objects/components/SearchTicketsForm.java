@@ -110,8 +110,6 @@ public class SearchTicketsForm {
         $(youthPassengerInputField).shouldBe(visible).setValue("10");
         $(youthPassengerMinus).click();
         $(youthPassengerMinus).shouldBe(disabled);
-
-
     }
 
     public SearchResultsPage userCanClickFindButton() {
