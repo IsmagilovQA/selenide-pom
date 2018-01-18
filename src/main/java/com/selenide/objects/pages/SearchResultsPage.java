@@ -3,7 +3,6 @@ package com.selenide.objects.pages;
 import com.selenide.objects.components.SearchTicketsForm;
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
@@ -11,7 +10,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class SearchResultsPage extends SearchTicketsForm{
 
     private String tabInfo = startStation + " to " + finishStation;
-    private String pageTitle = startStation + " to " + finishStation + " trains | Loco2";
     private By searchResultsPageInfoTab = By.xpath("//*[@id=\"tabs\"]");
     private By inboundResultsFirstItem = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]");
     private By inboundTicketClassDropdown = By.xpath("//*[@id=\"legs\"]/div[1]/div/div[2]/ul/li[1]/div[2]/ol/li/div/div/table/tbody/tr/td[3]");
@@ -21,10 +19,6 @@ public class SearchResultsPage extends SearchTicketsForm{
     private By outboundTicketClassDropdown = By.xpath("//*[@id=\"legs\"]/div[2]/div/div[2]/ul/li[1]/div[2]/ol/li/div/div/table/tbody/tr/td[3]");
     private By outboundTicketClassItem = By.xpath("//*[@id=\"legs\"]/div[2]/div/div[2]/ul/li[1]/div[2]/ol/li/div/div/div/table/tbody/tr[2]");
     private By ticketDetailsButton = By.xpath("//*[@class=\"inbound\"]/button");
-
-    public void userIsOnSearchResultsPage(){
-        $("title").shouldHave(attribute("text", pageTitle));
-    }
 
     public void userCanSeeSearchResults(){
         $(searchResultsPageInfoTab).shouldHave(text(tabInfo));
@@ -50,7 +44,7 @@ public class SearchResultsPage extends SearchTicketsForm{
         $(outboundTicketClassItem).click();
     }
 
-    public TicketDetailsPage userCanLoadTicketDetails() {
+    public TicketDetailsPage userCanClickTicketDetailsButton() {
         $(ticketDetailsButton).click();
         return new TicketDetailsPage();
     }

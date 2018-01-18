@@ -1,8 +1,6 @@
 package com.selenide.tests;
 
 import com.codeborne.selenide.Configuration;
-
-import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.testng.annotations.AfterClass;
@@ -14,10 +12,10 @@ public class TestConfig {
     public void setUp(){
         ChromeDriverManager.getInstance().setup();
         Configuration.browser = "chrome";
-        baseUrl = "https://loco2.com/";
+        Configuration.baseUrl = "https://loco2.com/";
         Configuration.startMaximized = true;
-        Configuration.savePageSource = false;
-        open(baseUrl);
+        open("/");
+
     }
 
     @AfterClass

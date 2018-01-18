@@ -100,8 +100,6 @@ public class SearchTicketsForm {
         $(seniorPassengersNumber).shouldHave(value("0"));
         $(seniorPassengerMinus).shouldBe(disabled);
         $(seniorPassengersNumber).shouldHave(value("0"));
-        $(seniorPassengerPlus).click();
-        $(seniorPassengersNumber).shouldHave(value("1"));
         $(youthPassengerInputField).shouldNotBe(visible);
         $(youthPassengersNumber).shouldHave(value("0"));
         $(youthPassengerInputField).shouldBe(disabled);
@@ -110,6 +108,8 @@ public class SearchTicketsForm {
         $(youthPassengerInputField).shouldBe(visible).setValue("10");
         $(youthPassengerMinus).click();
         $(youthPassengerMinus).shouldBe(disabled);
+
+
     }
 
     public SearchResultsPage userCanClickFindButton() {

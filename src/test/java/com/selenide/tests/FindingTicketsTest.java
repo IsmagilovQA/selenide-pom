@@ -37,7 +37,6 @@ public class FindingTicketsTest extends TestConfig {
     @Test(priority = 5)
     public void testCanOpenSearchResults() {
         new SearchTicketsForm().userCanClickFindButton();
-        new SearchResultsPage().userIsOnSearchResultsPage();
         new SearchResultsPage().userCanSeeSearchResults();
     }
 
@@ -55,7 +54,14 @@ public class FindingTicketsTest extends TestConfig {
 
     @Test(priority = 8)
     public void testCanLoadTicketDetails() {
-        new SearchResultsPage().userCanLoadTicketDetails();
+        new SearchResultsPage().userCanClickTicketDetailsButton();
         new TicketDetailsPage().userIsOnTicketsDetailsPage();
+    }
+
+    @Test(priority = 9)
+    public void testCanSpecifyTicketDetails(){
+        new TicketDetailsPage().userCanUncheckPaidSeatReservation();
+        new TicketDetailsPage().userCanSelectTicketDeliveryMethod();
+        new TicketDetailsPage().userCanSelectPassengerTitle();
     }
 }
