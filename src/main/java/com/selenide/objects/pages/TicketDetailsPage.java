@@ -43,8 +43,9 @@ public class TicketDetailsPage {
         $(firstPassengerLastName).setValue("Testing");
     }
 
-    public void userCanClickAddToBasketButton(){
+    public BasketPage userCanClickAddToBasketButton(){
         $(addToBasketButton).click();
+        return new BasketPage();
     }
 
 

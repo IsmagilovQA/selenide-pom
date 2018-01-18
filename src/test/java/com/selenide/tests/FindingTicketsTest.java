@@ -31,6 +31,7 @@ public class FindingTicketsTest extends TestConfig {
     @Test(priority = 4)
     public void testCanSelectPassengers(){
         new SearchTicketsForm().userCanSelectPassengers();
+        new SearchTicketsForm().userCanManageRailcards();
     }
 
 
@@ -53,7 +54,7 @@ public class FindingTicketsTest extends TestConfig {
 
 
     @Test(priority = 8)
-    public void testCanLoadTicketDetails() {
+    public void testCanSeeTicketDetails() {
         new SearchResultsPage().userCanClickTicketDetailsButton();
         new TicketDetailsPage().userIsOnTicketsDetailsPage();
     }
@@ -64,4 +65,11 @@ public class FindingTicketsTest extends TestConfig {
         new TicketDetailsPage().userCanSelectTicketDeliveryMethod();
         new TicketDetailsPage().userCanSelectPassengerTitle();
     }
+
+    @Test(priority = 10)
+    public void testCanAddTicketToBasket(){
+        new TicketDetailsPage().userCanClickAddToBasketButton();
+    }
+
+
 }
